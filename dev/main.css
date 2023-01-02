@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+    /* flex-wrap: wrap; */
+}
+#card {
+    background-color: crimson;
+    display: flex;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: 150ms ease;
+    width: 100%;
+}
+a:hover {
+    transform: scale(0.9);
+    opacity: 0.4;
+}
+#icon {
+    padding: 0.5rem;
+}
